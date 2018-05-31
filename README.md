@@ -20,6 +20,7 @@ dependencies {
 }
 
 # ★ Features are.
+```sh
 1. Device Reporter.
   1.a.  Current TimeStamp.
   1.b.  Device Info:- 
@@ -96,6 +97,7 @@ dependencies {
   5.a.  Write Log To File. PASS(TAGNAME,VALUE)
   5.b.  Create LogCat.
   5.c.  Create Error LogCat.
+```
 
 # ★ Uses of this features.
 ```sh
