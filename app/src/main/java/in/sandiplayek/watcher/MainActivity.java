@@ -32,7 +32,7 @@ import static android.Manifest.permission.READ_PHONE_NUMBERS;
 import static android.Manifest.permission.READ_PHONE_STATE;
 
 public class MainActivity extends AppCompatActivity implements EasyPermissions.PermissionCallbacks{
-    private static final int PERMISSION_REQUEST_CODE = 200;
+
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP_MR1)
     private static final String[] PERMISSION_LIST ={
             Manifest.permission.ACCESS_FINE_LOCATION, 
