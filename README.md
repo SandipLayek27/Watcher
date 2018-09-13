@@ -103,6 +103,8 @@ dependencies {
 
 # ★ Uses of this features.
 ```sh
+Use this library for EasyPermissions.
+https://github.com/SandipLayek27/RuntimePermission
 ----------------------------------------------------------------------------------------------------------
 ❆ MainActivity.java PAGE:- [FOR RUNTIME PERMISSION]
 public class MainActivity extends AppCompatActivity implements EasyPermissions.PermissionCallbacks{
