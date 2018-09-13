@@ -17,7 +17,7 @@ allprojects{
 }
 AND
 dependencies {
-    implementation 'com.github.SandipLayek27:Watcher:1.0.0'
+    implementation 'com.github.SandipLayek27:Watcher:1.0.1'
 }
 ```
 
