@@ -1,5 +1,6 @@
 package in.sandiplayek.d_eye;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.ProgressDialog;
@@ -81,6 +82,7 @@ public class DeviceReporter {
         return deviceInfoHashMap;
     }
 
+    @SuppressLint("MissingPermission")
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP_MR1)
     public static HashMap isSimOneAvailable(Context context){
         SubscriptionManager sManager = (SubscriptionManager) context.getSystemService(Context.TELEPHONY_SUBSCRIPTION_SERVICE);
@@ -115,6 +117,7 @@ public class DeviceReporter {
         return hashMapSimOne;
     }
 
+    @SuppressLint("MissingPermission")
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP_MR1)
     public static HashMap isSimTwoAvailable(Context context){
         SubscriptionManager sManager = (SubscriptionManager) context.getSystemService(Context.TELEPHONY_SUBSCRIPTION_SERVICE);
